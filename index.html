@@ -1,0 +1,658 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><!-- <script src="https://static.readdy.ai/static/e.js"></script> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copper Canyon Institute - Legal Training Excellence</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#B45309',
+                        secondary: '#1F2937'
+                    },
+                    borderRadius: {
+                        'none': '0px',
+                        'sm': '4px',
+                        DEFAULT: '8px',
+                        'md': '12px',
+                        'lg': '16px',
+                        'xl': '20px',
+                        '2xl': '24px',
+                        '3xl': '32px',
+                        'full': '9999px',
+                        'button': '8px'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        :where([class^="ri-"])::before {
+            content: "\f3c2";
+        }
+    </style>
+</head>
+<body class="bg-white text-secondary">
+    <nav class="bg-secondary shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <div class="text-2xl font-['Pacifico'] text-primary">logo</div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#home" class="text-white hover:text-primary px-3 py-2 text-sm font-medium transition-colors">Home</a>
+                        <a href="#programs" class="text-white hover:text-primary px-3 py-2 text-sm font-medium transition-colors">Programs</a>
+                        <a href="#employers" class="text-white hover:text-primary px-3 py-2 text-sm font-medium transition-colors">Employer Partnership</a>
+                        <a href="#admissions" class="text-white hover:text-primary px-3 py-2 text-sm font-medium transition-colors">Admissions</a>
+                        <a href="#faq" class="text-white hover:text-primary px-3 py-2 text-sm font-medium transition-colors">FAQ</a>
+                        <a href="#contact" class="text-white hover:text-primary px-3 py-2 text-sm font-medium transition-colors">Contact</a>
+                    </div>
+                </div>
+                <button class="md:hidden w-6 h-6 flex items-center justify-center" id="mobile-menu-btn">
+                    <i class="ri-menu-line text-white text-xl"></i>
+                </button>
+            </div>
+        </div>
+        <div class="md:hidden hidden" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-secondary">
+                <a href="#home" class="text-white hover:text-primary block px-3 py-2 text-base font-medium">Home</a>
+                <a href="#programs" class="text-white hover:text-primary block px-3 py-2 text-base font-medium">Programs</a>
+                <a href="#employers" class="text-white hover:text-primary block px-3 py-2 text-base font-medium">Employer Partnership</a>
+                <a href="#admissions" class="text-white hover:text-primary block px-3 py-2 text-base font-medium">Admissions</a>
+                <a href="#faq" class="text-white hover:text-primary block px-3 py-2 text-base font-medium">FAQ</a>
+                <a href="#contact" class="text-white hover:text-primary block px-3 py-2 text-base font-medium">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="relative min-h-screen flex items-center" style="background-image: url('https://readdy.ai/api/search-image?query=Professional%20legal%20education%20environment%20with%20modern%20classroom%20setting%2C%20law%20books%20and%20legal%20documents%2C%20sophisticated%20dark%20background%20with%20warm%20copper%20lighting%2C%20minimalist%20composition%20with%20left%20side%20darker%20transitioning%20to%20lighter%20right%20side%2C%20professional%20atmosphere%2C%20high-end%20educational%20facility%2C%20contemporary%20design&width=1920&height=1080&seq=hero001&orientation=landscape'); background-size: cover; background-position: center;">
+        <div class="absolute inset-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-transparent"></div>
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="text-white">
+                    <h1 class="text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+                        Shape the Future of <span class="text-primary">Legal Excellence</span>
+                    </h1>
+                    <p class="text-xl mb-8 text-gray-200 leading-relaxed">
+                        Copper Canyon Institute bridges the gap between legal education and industry demands, preparing the next generation of paralegals, intake specialists, mediators, and arbitrators for guaranteed career success.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button class="bg-primary hover:bg-primary/90 text-white px-8 py-4 !rounded-button font-semibold text-lg transition-colors whitespace-nowrap">
+                            Explore Programs
+                        </button>
+                        <button class="border-2 border-primary text-primary hover:bg-primary hover:text-white px-8 py-4 !rounded-button font-semibold text-lg transition-colors whitespace-nowrap">
+                            Partner with Us
+                        </button>
+                    </div>
+                </div>
+                <div class="lg:block hidden"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-secondary mb-4">Why Choose Copper Canyon Institute</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">We deliver results that matter to both students and employers through our industry-aligned curriculum and proven placement success.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+                    <div class="w-16 h-16 flex items-center justify-center bg-primary/10 rounded-full mx-auto mb-6">
+                        <i class="ri-trophy-line text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-secondary mb-4">95% Job Placement Rate</h3>
+                    <p class="text-gray-600">Our graduates secure positions within 6 months of completion, with starting salaries 40% above industry average.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+                    <div class="w-16 h-16 flex items-center justify-center bg-primary/10 rounded-full mx-auto mb-6">
+                        <i class="ri-handshake-line text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-secondary mb-4">Industry Partnerships</h3>
+                    <p class="text-gray-600">Direct collaboration with top law firms and corporations ensures our curriculum meets real-world demands.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+                    <div class="w-16 h-16 flex items-center justify-center bg-primary/10 rounded-full mx-auto mb-6">
+                        <i class="ri-graduation-cap-line text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-secondary mb-4">Expert Faculty</h3>
+                    <p class="text-gray-600">Learn from practicing attorneys, certified mediators, and industry veterans with decades of experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="programs" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-secondary mb-4">Professional Programs</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Comprehensive training programs designed to launch your legal career with confidence and competence.</p>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-lg">
+                    <img src="https://readdy.ai/api/search-image?query=Professional%20paralegal%20working%20in%20modern%20law%20office%20with%20legal%20documents%20and%20computer%2C%20sophisticated%20workspace%20with%20warm%20lighting%2C%20contemporary%20office%20environment%2C%20legal%20research%20materials%2C%20professional%20atmosphere%2C%20high-quality%20educational%20setting&width=600&height=400&seq=prog001&orientation=landscape" alt="Paralegal Program" class="w-full h-64 object-cover object-top">
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold text-secondary mb-4">Paralegal Certification</h3>
+                        <p class="text-gray-600 mb-6">Master legal research, document preparation, case management, and client communication in our comprehensive 12-month program.</p>
+                        <ul class="space-y-2 mb-6">
+                            <li class="flex items-center text-gray-600">
+                                <i class="ri-check-line text-primary mr-2"></i>
+                                Legal Research & Writing
+                            </li>
+                            <li class="flex items-center text-gray-600">
+                                <i class="ri-check-line text-primary mr-2"></i>
+                                Case Management Systems
+                            </li>
+                            <li class="flex items-center text-gray-600">
+                                <i class="ri-check-line text-primary mr-2"></i>
+                                Client Interview Techniques
+                            </li>
+                        </ul>
+                        <button class="bg-primary hover:bg-primary/90 text-white px-6 py-3 !rounded-button font-semibold transition-colors whitespace-nowrap">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-lg">
+                    <img src="https://readdy.ai/api/search-image?query=Professional%20intake%20specialist%20conducting%20client%20consultation%20in%20modern%20law%20office%2C%20welcoming%20reception%20area%20with%20contemporary%20design%2C%20client%20service%20environment%2C%20professional%20communication%20setting%2C%20warm%20and%20approachable%20atmosphere&width=600&height=400&seq=prog002&orientation=landscape" alt="Intake Specialist Program" class="w-full h-64 object-cover object-top">
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold text-secondary mb-4">Intake Specialist Training</h3>
+                        <p class="text-gray-600 mb-6">Develop expertise in client assessment, case evaluation, and initial consultation management through our 8-month intensive program.</p>
+                        <ul class="space-y-2 mb-6">
+                            <li class="flex items-center text-gray-600">
+                                <i class="ri-check-line text-primary mr-2"></i>
+                                Client Assessment Protocols
+                            </li>
+                            <li class="flex items-center text-gray-600">
+                                <i class="ri-check-line text-primary mr-2"></i>
+                                Case Evaluation Methods
+                            </li>
+                            <li class="flex items-center text-gray-600">
+                                <i class="ri-check-line text-primary mr-2"></i>
+                                Communication Excellence
+                            </li>
+                        </ul>
+                        <button class="bg-primary hover:bg-primary/90 text-white px-6 py-3 !rounded-button font-semibold transition-colors whitespace-nowrap">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-lg">
+                    <img src="https://readdy.ai/api/search-image?query=Professional%20mediation%20session%20in%20elegant%20conference%20room%2C%20neutral%20mediator%20facilitating%20discussion%20between%20parties%2C%20modern%20meeting%20space%20with%20sophisticated%20design%2C%20conflict%20resolution%20environment%2C%20professional%20mediation%20setting&width=600&height=400&seq=prog003&orientation=landscape" alt="Mediation Program" class="w-full h-64 object-cover object-top">
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold text-secondary mb-4">Mediation Certification</h3>
+                        <p class="text-gray-600 mb-6">Become a certified mediator through our comprehensive program covering conflict resolution, negotiation, and facilitation techniques.</p>
+                        <ul class="space-y-2 mb-6">
+                            <li class="flex items-center text-gray-600">
+                                <i class="ri-check-line text-primary mr-2"></i>
+                                Conflict Resolution Theory
+                            </li>
+                            <li class="flex items-center text-gray-600">
+                                <i class="ri-check-line text-primary mr-2"></i>
+                                Negotiation Strategies
+                            </li>
+                            <li class="flex items-center text-gray-600">
+                                <i class="ri-check-line text-primary mr-2"></i>
+                                Facilitation Techniques
+                            </li>
+                        </ul>
+                        <button class="bg-primary hover:bg-primary/90 text-white px-6 py-3 !rounded-button font-semibold transition-colors whitespace-nowrap">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-lg">
+                    <img src="https://readdy.ai/api/search-image?query=Professional%20arbitration%20hearing%20in%20formal%20hearing%20room%2C%20arbitrator%20presiding%20over%20proceedings%2C%20elegant%20legal%20chamber%20with%20traditional%20and%20modern%20elements%2C%20formal%20dispute%20resolution%20setting%2C%20professional%20arbitration%20environment&width=600&height=400&seq=prog004&orientation=landscape" alt="Arbitration Program" class="w-full h-64 object-cover object-top">
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold text-secondary mb-4">Arbitration Training</h3>
+                        <p class="text-gray-600 mb-6">Master the art of arbitration with our specialized program focusing on dispute resolution, evidence evaluation, and decision-making.</p>
+                        <ul class="space-y-2 mb-6">
+                            <li class="flex items-center text-gray-600">
+                                <i class="ri-check-line text-primary mr-2"></i>
+                                Arbitration Procedures
+                            </li>
+                            <li class="flex items-center text-gray-600">
+                                <i class="ri-check-line text-primary mr-2"></i>
+                                Evidence Evaluation
+                            </li>
+                            <li class="flex items-center text-gray-600">
+                                <i class="ri-check-line text-primary mr-2"></i>
+                                Decision Writing
+                            </li>
+                        </ul>
+                        <button class="bg-primary hover:bg-primary/90 text-white px-6 py-3 !rounded-button font-semibold transition-colors whitespace-nowrap">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="employers" class="py-20 bg-secondary text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold mb-6">Partner with Industry Leaders</h2>
+                    <p class="text-xl text-gray-300 mb-8 leading-relaxed">
+                        Join leading law firms and corporations who trust Copper Canyon Institute to deliver job-ready professionals. Our collaborative approach ensures graduates meet your specific needs from day one.
+                    </p>
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="w-8 h-8 flex items-center justify-center bg-primary rounded-full mr-4 mt-1">
+                                <i class="ri-check-line text-white"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-lg mb-2">Curriculum Collaboration</h3>
+                                <p class="text-gray-300">Work directly with our faculty to shape course content that addresses your specific operational needs.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="w-8 h-8 flex items-center justify-center bg-primary rounded-full mr-4 mt-1">
+                                <i class="ri-check-line text-white"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-lg mb-2">Priority Access to Graduates</h3>
+                                <p class="text-gray-300">Get first access to our top-performing students through exclusive recruitment events and early interviews.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="w-8 h-8 flex items-center justify-center bg-primary rounded-full mr-4 mt-1">
+                                <i class="ri-check-line text-white"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-lg mb-2">Ongoing Professional Development</h3>
+                                <p class="text-gray-300">Continue developing your team through our advanced training modules and continuing education programs.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="bg-primary hover:bg-primary/90 text-white px-8 py-4 !rounded-button font-semibold text-lg mt-8 transition-colors whitespace-nowrap">
+                        Become a Partner
+                    </button>
+                </div>
+                <div class="bg-white/10 rounded-lg p-8">
+                    <h3 class="text-2xl font-bold mb-6 text-center">Employer Partnership Form</h3>
+                    <form class="space-y-4">
+                        <div>
+                            <input type="text" placeholder="Company Name" class="w-full px-4 py-3 rounded border-none bg-white/20 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-primary">
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Contact Person" class="w-full px-4 py-3 rounded border-none bg-white/20 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-primary">
+                        </div>
+                        <div>
+                            <input type="email" placeholder="Email Address" class="w-full px-4 py-3 rounded border-none bg-white/20 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-primary">
+                        </div>
+                        <div>
+                            <input type="tel" placeholder="Phone Number" class="w-full px-4 py-3 rounded border-none bg-white/20 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-primary">
+                        </div>
+                        <div>
+                            <textarea placeholder="Partnership Interest" rows="4" class="w-full px-4 py-3 rounded border-none bg-white/20 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-primary resize-none"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-primary hover:bg-primary/90 text-white px-6 py-3 !rounded-button font-semibold transition-colors whitespace-nowrap">
+                            Submit Partnership Request
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="admissions" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-secondary mb-4">Start Your Legal Career Journey</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Take the first step toward a rewarding career in the legal field. Our streamlined admissions process gets you started quickly.</p>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <div class="space-y-8">
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 flex items-center justify-center bg-primary text-white rounded-full mr-4 font-bold">1</div>
+                            <div>
+                                <h3 class="font-semibold text-lg mb-2">Submit Application</h3>
+                                <p class="text-gray-600">Complete our online application with your educational background and career goals. No entrance exam required.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 flex items-center justify-center bg-primary text-white rounded-full mr-4 font-bold">2</div>
+                            <div>
+                                <h3 class="font-semibold text-lg mb-2">Career Consultation</h3>
+                                <p class="text-gray-600">Meet with our admissions team to discuss your career objectives and find the perfect program match.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 flex items-center justify-center bg-primary text-white rounded-full mr-4 font-bold">3</div>
+                            <div>
+                                <h3 class="font-semibold text-lg mb-2">Enrollment & Start</h3>
+                                <p class="text-gray-600">Complete enrollment paperwork and begin your program within two weeks of acceptance.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-12 p-6 bg-gray-50 rounded-lg">
+                        <h4 class="font-semibold text-lg mb-4">Admission Requirements</h4>
+                        <ul class="space-y-2">
+                            <li class="flex items-center text-gray-600">
+                                <i class="ri-check-line text-primary mr-2"></i>
+                                High school diploma or equivalent
+                            </li>
+                            <li class="flex items-center text-gray-600">
+                                <i class="ri-check-line text-primary mr-2"></i>
+                                Basic computer literacy
+                            </li>
+                            <li class="flex items-center text-gray-600">
+                                <i class="ri-check-line text-primary mr-2"></i>
+                                Commitment to professional excellence
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bg-gray-50 rounded-lg p-8">
+                    <h3 class="text-2xl font-bold text-secondary mb-6 text-center">Student Application Form</h3>
+                    <form class="space-y-4">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <input type="text" placeholder="First Name" class="px-4 py-3 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary">
+                            <input type="text" placeholder="Last Name" class="px-4 py-3 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary">
+                        </div>
+                        <div>
+                            <input type="email" placeholder="Email Address" class="w-full px-4 py-3 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary">
+                        </div>
+                        <div>
+                            <input type="tel" placeholder="Phone Number" class="w-full px-4 py-3 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary">
+                        </div>
+                        <div>
+                            <select class="w-full px-4 py-3 pr-8 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary">
+                                <option>Select Program of Interest</option>
+                                <option>Paralegal Certification</option>
+                                <option>Intake Specialist Training</option>
+                                <option>Mediation Certification</option>
+                                <option>Arbitration Training</option>
+                            </select>
+                        </div>
+                        <div>
+                            <textarea placeholder="Tell us about your career goals" rows="4" class="w-full px-4 py-3 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary resize-none"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-primary hover:bg-primary/90 text-white px-6 py-3 !rounded-button font-semibold transition-colors whitespace-nowrap">
+                            Submit Application
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="py-20 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-secondary mb-4">Frequently Asked Questions</h2>
+                <p class="text-xl text-gray-600">Get answers to common questions about our programs and career outcomes.</p>
+            </div>
+            <div class="space-y-4">
+                <div class="bg-white rounded-lg shadow-sm">
+                    <button class="w-full px-6 py-4 text-left flex items-center justify-between faq-trigger">
+                        <span class="font-semibold text-secondary">How long are the programs?</span>
+                        <i class="ri-arrow-down-s-line text-primary text-xl transform transition-transform"></i>
+                    </button>
+                    <div class="px-6 pb-4 hidden faq-content">
+                        <p class="text-gray-600">Program lengths vary: Paralegal Certification (12 months), Intake Specialist Training (8 months), Mediation Certification (6 months), and Arbitration Training (10 months). All programs include flexible scheduling options.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm">
+                    <button class="w-full px-6 py-4 text-left flex items-center justify-between faq-trigger">
+                        <span class="font-semibold text-secondary">What is the job placement rate?</span>
+                        <i class="ri-arrow-down-s-line text-primary text-xl transform transition-transform"></i>
+                    </button>
+                    <div class="px-6 pb-4 hidden faq-content">
+                        <p class="text-gray-600">We maintain a 95% job placement rate within 6 months of graduation. Our career services team works closely with each student to ensure successful placement in their chosen field.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm">
+                    <button class="w-full px-6 py-4 text-left flex items-center justify-between faq-trigger">
+                        <span class="font-semibold text-secondary">Are classes available online?</span>
+                        <i class="ri-arrow-down-s-line text-primary text-xl transform transition-transform"></i>
+                    </button>
+                    <div class="px-6 pb-4 hidden faq-content">
+                        <p class="text-gray-600">Yes, we offer hybrid learning options with both in-person and online components. Students can choose the format that best fits their schedule and learning preferences.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm">
+                    <button class="w-full px-6 py-4 text-left flex items-center justify-between faq-trigger">
+                        <span class="font-semibold text-secondary">What are the tuition costs?</span>
+                        <i class="ri-arrow-down-s-line text-primary text-xl transform transition-transform"></i>
+                    </button>
+                    <div class="px-6 pb-4 hidden faq-content">
+                        <p class="text-gray-600">Tuition varies by program, ranging from $8,500 to $15,000. We offer flexible payment plans, scholarships, and financial aid options to make our programs accessible to all qualified students.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm">
+                    <button class="w-full px-6 py-4 text-left flex items-center justify-between faq-trigger">
+                        <span class="font-semibold text-secondary">Do you provide career support after graduation?</span>
+                        <i class="ri-arrow-down-s-line text-primary text-xl transform transition-transform"></i>
+                    </button>
+                    <div class="px-6 pb-4 hidden faq-content">
+                        <p class="text-gray-600">Absolutely! Our career services extend for one full year after graduation, including job search assistance, interview preparation, resume optimization, and ongoing professional development opportunities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-secondary mb-4">Get in Touch</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Ready to start your legal career or explore partnership opportunities? We're here to help.</p>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div>
+                    <div class="space-y-8">
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 flex items-center justify-center bg-primary/10 rounded-full mr-4">
+                                <i class="ri-map-pin-line text-primary text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-lg mb-2">Campus Location</h3>
+                                <p class="text-gray-600">1247 Legal Education Boulevard<br>Phoenix, Arizona 85001</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 flex items-center justify-center bg-primary/10 rounded-full mr-4">
+                                <i class="ri-phone-line text-primary text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-lg mb-2">Phone</h3>
+                                <p class="text-gray-600">(602) 555-0147<br>Monday - Friday, 8 AM - 6 PM MST</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 flex items-center justify-center bg-primary/10 rounded-full mr-4">
+                                <i class="ri-mail-line text-primary text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-lg mb-2">Email</h3>
+                                <p class="text-gray-600">admissions@coppercanyoninstitute.edu<br>partnerships@coppercanyoninstitute.edu</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-12">
+                        <h3 class="font-semibold text-lg mb-4">Office Hours</h3>
+                        <div class="space-y-2 text-gray-600">
+                            <div class="flex justify-between">
+                                <span>Monday - Thursday</span>
+                                <span>8:00 AM - 8:00 PM</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Friday</span>
+                                <span>8:00 AM - 6:00 PM</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Saturday</span>
+                                <span>9:00 AM - 3:00 PM</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Sunday</span>
+                                <span>Closed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 rounded-lg p-8">
+                    <h3 class="text-2xl font-bold text-secondary mb-6 text-center">Contact Form</h3>
+                    <form class="space-y-4">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <input type="text" placeholder="First Name" class="px-4 py-3 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary">
+                            <input type="text" placeholder="Last Name" class="px-4 py-3 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary">
+                        </div>
+                        <div>
+                            <input type="email" placeholder="Email Address" class="w-full px-4 py-3 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary">
+                        </div>
+                        <div>
+                            <input type="tel" placeholder="Phone Number" class="w-full px-4 py-3 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary">
+                        </div>
+                        <div>
+                            <select class="w-full px-4 py-3 pr-8 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary">
+                                <option>Inquiry Type</option>
+                                <option>Student Information</option>
+                                <option>Employer Partnership</option>
+                                <option>General Question</option>
+                            </select>
+                        </div>
+                        <div>
+                            <textarea placeholder="Your Message" rows="5" class="w-full px-4 py-3 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary resize-none"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-primary hover:bg-primary/90 text-white px-6 py-3 !rounded-button font-semibold transition-colors whitespace-nowrap">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-secondary text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="text-2xl font-['Pacifico'] text-primary mb-4">logo</div>
+                    <p class="text-gray-300 mb-6">Bridging the gap between legal education and industry demands through excellence in training.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 flex items-center justify-center bg-white/10 rounded-full hover:bg-primary transition-colors">
+                            <i class="ri-facebook-fill text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 flex items-center justify-center bg-white/10 rounded-full hover:bg-primary transition-colors">
+                            <i class="ri-twitter-fill text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 flex items-center justify-center bg-white/10 rounded-full hover:bg-primary transition-colors">
+                            <i class="ri-linkedin-fill text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 flex items-center justify-center bg-white/10 rounded-full hover:bg-primary transition-colors">
+                            <i class="ri-instagram-fill text-white"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-lg mb-4">Programs</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-primary transition-colors">Paralegal Certification</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-primary transition-colors">Intake Specialist Training</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-primary transition-colors">Mediation Certification</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-primary transition-colors">Arbitration Training</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-lg mb-4">Resources</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-primary transition-colors">Student Portal</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-primary transition-colors">Career Services</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-primary transition-colors">Alumni Network</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-primary transition-colors">Blog</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-lg mb-4">Contact Info</h4>
+                    <div class="space-y-2 text-gray-300">
+                        <p>1247 Legal Education Boulevard</p>
+                        <p>Phoenix, Arizona 85001</p>
+                        <p>(602) 555-0147</p>
+                        <p>info@coppercanyoninstitute.edu</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-12 pt-8 text-center text-gray-300">
+                <p>&copy; 2025 Copper Canyon Institute. All rights reserved. | Privacy Policy | Terms of Service</p>
+            </div>
+        </div>
+    </footer>
+
+    <script id="mobile-menu-script">
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+            
+            mobileMenuBtn.addEventListener('click', function() {
+                mobileMenu.classList.toggle('hidden');
+            });
+        });
+    </script>
+
+    <script id="faq-script">
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqTriggers = document.querySelectorAll('.faq-trigger');
+            
+            faqTriggers.forEach(trigger => {
+                trigger.addEventListener('click', function() {
+                    const content = this.nextElementSibling;
+                    const icon = this.querySelector('i');
+                    
+                    content.classList.toggle('hidden');
+                    icon.classList.toggle('rotate-180');
+                });
+            });
+        });
+    </script>
+
+    <script id="smooth-scroll-script">
+        document.addEventListener('DOMContentLoaded', function() {
+            const links = document.querySelectorAll('a[href^="#"]');
+            
+            links.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    
+                    if (targetElement) {
+                        targetElement.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+<script>
+    !function (t, e) { var o, n, p, r; e.__SV || (window.posthog = e, e._i = [], e.init = function (i, s, a) { function g(t, e) { var o = e.split("."); 2 == o.length && (t = t[o[0]], e = o[1]), t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))) } } (p = t.createElement("script")).type = "text/javascript", p.crossOrigin = "anonymous", p.async = !0, p.src = s.api_host.replace(".i.posthog.com", "-assets.i.posthog.com") + "/static/array.js", (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(p, r); var u = e; for (void 0 !== a ? u = e[a] = [] : a = "posthog", u.people = u.people || [], u.toString = function (t) { var e = "posthog"; return "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e }, u.people.toString = function () { return u.toString(1) + ".people (stub)" }, o = "init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(" "), n = 0; n < o.length; n++)g(u, o[n]); e._i.push([i, s, a]) }, e.__SV = 1) }(document, window.posthog || []);
+    posthog.init('phc_t9tkQZJiyi2ps9zUYm8TDsL6qXo4YmZx0Ot5rBlAlEd', {
+        api_host: 'https://us.i.posthog.com',
+        autocapture: false,
+        capture_pageview: false,
+        capture_pageleave: false,
+        capture_performance: {
+            web_vitals: false,
+        },
+        rageclick: false,
+    })
+    window.shareKey = 'm8pVEHCLV13U79_mS6JcTg';
+    window.host = /*'readdy.ai';*/
+</script>
+</body>
+</html>
